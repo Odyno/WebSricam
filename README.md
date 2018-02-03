@@ -1,2 +1,6 @@
 # WebSricam
-WebInterface for Sricam SP015 IP Cam
+WebInterface for Sricam SP015 Wireless IP Camera
+
+Require:
+* ffmpeg
+* node
