@@ -1,7 +1,7 @@
 {
-  "name": "WebSricam",
+  "name": "web-sricam",
   "version": "1.0.0",
-  "description": "",
+  "description": "WebInterface for Sricam SP015 Wireless IP Camera",
   "main": "server.js",
   "scripts": {
     "build_imge": "docker build -t odyno/node-ffmpeg:$npm_package_version .",
@@ -10,8 +10,8 @@
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alessandro Staniscia",
+  "license": "GPL-3.0 ",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
     "node-onvif": "^0.1.2",
@@ -21,5 +21,19 @@
   },
   "devDependencies": {
     "nodemon": "^1.14.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Odyno/WebSricam.git"
+  },
+  "keywords": [
+    "Sricam",
+    "IPCam",
+    "SP015",
+    "tvcc"
+  ],
+  "bugs": {
+    "url": "https://github.com/Odyno/WebSricam/issues"
+  },
+  "homepage": "https://github.com/Odyno/WebSricam#readme"
 }
